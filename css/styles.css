@@ -1,0 +1,105 @@
+.container{
+    /*background: orange;*/
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: black;
+    margin: 1%;
+    
+}
+.one{
+    color: aqua;
+}
+.img{
+    height: 400px;
+    width: 1300px;
+    align-items: center;
+}
+.how{
+    background: url("https://www.planetware.com/wpimages/2020/02/france-in-pictures-beautiful-places-to-photograph-calanques-national-park.jpg");
+    background-size: cover;
+    color: black;
+}
+#contactus {
+    background-color: peru ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px;
+    margin: 1%;
+
+
+
+  }
+  .form-control {
+    background: transparent;
+  }
+  .form-control {
+    color: white;
+    opacity: 1;
+    padding: 12px;
+  }
+  .btn {
+    border: 2px solid white;
+    padding: 6px;
+    color: white;
+    background: transparent;
+  }
+  #second{
+      background: bisque;
+  }
+.column-md-3 {
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.row {
+    display: flex;
+}
+
+.column-md-3 {
+    flex: 25%;
+    padding: 5px;
+}
+.column-md-3 {
+    width: 100%;
+}
+#portfolio div img {
+    width: 100%;
+    display: block;
+}
+#portfolio div {
+    padding: 10px;
+}
+.head{
+    text-align: center;
+}
+.topnav {
+    background-color: coral;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    object-fit: cover;
+}
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+#one1{
+    width: 100%;
+}
+
+
+

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+    <div class="container-fluid" style="background: bisque">
+        <div class="container-fluid">
+            <div class="topnav">
+                <a class="active" href="day1.html">Home</a>
+                <a href="travel.html">Travel</a>
+                <a href="day2.html">Class</a>
+                <P></P>
+
+            </div>
+        </div>
+        <h1>Sign up form</h1>
+
+
+        <div class="form">
+            <form>
+                <label for="fname" > First name:</label>
+                <input type="text" id="fname" placeholder="enter your firstname">
+
+                <br>
+                <label  for="lname">Last name:</label>
+                <input type="text" id="lname" placeholder="last name" >
+
+                <br>
+                <label for="cname">Company :</label>
+                <input type="text" id="cname" placeholder="company name" >
+                <br>
+                <label for="school">School name:</label>
+                <input type="text" name="school_name" id="school" />
+                <br>
+                <label for="email">email address:</label>
+                <input type="text" name="email" id="email" />
+                <br>
+                <label for="T&Cs">Agree to terms and conditions</label>
+                <input type="checkbox" name="Terms and conditions" id="T&Cs">
+                <br>
+                <label for="marital_status">Married</label>
+                <input type="checkbox" name="Terms and conditions" id="marital_status">
+                <br>
+                <label >Gender: </label>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="female">
+                <br>
+                <h3>Select your car(s)</h3>
+
+                <label for="mercedes">Mercedes</label>
+                <input type="checkbox" name="Mercedes" id="mercedes" />
+
+                <label for="bmw">BMW</label>
+                <input type="checkbox" name="BMW" id="bmw" />
+
+                <label for="toyota">Toyota</label>
+                <input type="checkbox" name="Toyota" id="toyota" />
+
+                <h3>Select your Color</h3>
+                <label for="red">Red : </label>
+                <input type="radio" name="color" id="red">
+
+                <label for="blue">Blue : </label>
+                <input type="radio" name="color" id="blue">
+
+                <label for="green">Green : </label>
+                <input type="radio" name="color" id="green">
+
+                <br/>
+                <label for="passwd">Enter Password: </label>
+                <!--        add password field and re-enter password inputbox   -->
+                <!--        shortcut ->   input:password#passwd  -->
+                <input type="password" name="password" id="passwd">
+                <br/>
+                <label for="re_passwd">Re-Enter Password: </label>
+                <!--        shortcut ->   input:password#re_passwd  -->
+                <input type="password" name="re_password" id="re_passwd">
+
+                <br/>
+                <label for="years_of_exp">Years Of Experience</label>
+                <input type="number" name="YearsOfExperience" id="years_of_exp">
+                <br/>
+
+                <label for="upload">Upload your document</label>
+                <input type="file" name="docs" id="upload">
+
+                <br/>
+
+                <label for="state">Select State: </label>
+                <!--        select#state>option*3 -->
+                <select name="select_state" id="state">
+                    <option selected > - </option>
+                    <option value="VA"> Virginia</option>
+                    <option value="NY">New York</option>
+                    <option selected value="CA">California</option>
+                </select>
+
+                <br/>
+                <label for="dateOfBirth">Date of Birth : </label>
+                <!--        input:date#dateOfBirth-->
+                <input type="date" name="dateOfBirth" id="dateOfBirth" />
+
+                <br>
+                <label for="bio"><u> <strong>Tell me about yourself</strong> </u></label>
+                <textarea name="" id="biography" cols="100" rows="10"></textarea>
+                <br>
+                <button type="submit" id="submit">Submit your form</button>
+                <button type="reset">Reset</button>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+
+
+
+
+            </form>
+        </div>
+
+
+
+
+
+
+
+    </div>
+
+</body>
+</html>
