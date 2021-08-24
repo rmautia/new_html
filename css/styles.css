@@ -46,7 +46,9 @@
     background: transparent;
   }
   #second{
-      background: bisque;
+      background-color: beige;
+      background-repeat: no-repeat;
+      background-size: cover;
   }
 .column-md-3 {
     float: left;
@@ -80,9 +82,9 @@
     text-align: center;
 }
 .topnav {
-    background-color: coral;
+    background-color: darkseagreen;
     overflow: hidden;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica;
     object-fit: cover;
 }
 .topnav a {
@@ -100,6 +102,30 @@
 #one1{
     width: 100%;
 }
+#main{
+    color: #ff002f;
+
+}
+#the1{
+    background: url("https://images.unsplash.com/photo-1610653216265-74079d187414?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmVpZ2UlMjB3YWxscGFwZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img {
+    max-width: 100%; height: auto;
+}
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
 
 
 

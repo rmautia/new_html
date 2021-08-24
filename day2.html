@@ -2,14 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Cool Website</title>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
 </head>
 
 <body>
-    <div class="container-fluid" style="background: bisque">
-        <div class="container-fluid">
-            <div class="topnav">
+    <div class="container-fluid" id="the1">
+        <div class="container-fluid" >
+            <div class="topnav" style="background: #384926">
                 <a class="active" href="index.html">Home</a>
                 <a href="travel.html">Travel</a>
                 <a href="day2.html">Class2</a>
@@ -17,24 +20,24 @@
 
             </div>
         </div>
-        <h1>Sign up form</h1>
+        <h1 id="main" style="text-align: center " > <span style="background: aqua">Sign up form</span> </h1>
 
 
         <div class="form">
             <form>
                 <label for="fname" > First name:</label>
-                <input type="text" id="fname" placeholder="enter your firstname">
+                <input style="background: aqua" type="text" id="fname" placeholder="enter your firstname">
 
                 <br>
                 <label  for="lname">Last name:</label>
-                <input type="text" id="lname" placeholder="last name" >
+                <input style="background: cadetblue" type="text" id="lname" placeholder="last name" >
 
                 <br>
                 <label for="cname">Company :</label>
-                <input type="text" id="cname" placeholder="company name" >
+                <input style="background: chartreuse" type="text" id="cname" placeholder="company name" >
                 <br>
                 <label for="school">School name:</label>
-                <input type="text" name="school_name" id="school" />
+                <input  style="background: blue" type="text" name="school_name" id="school" />
                 <br>
                 <label for="email">email address:</label>
                 <input type="text" name="email" id="email" />
@@ -108,7 +111,7 @@
 
                 <br>
                 <label for="bio"><u> <strong>Tell me about yourself</strong> </u></label>
-                <textarea name="" id="biography" cols="100" rows="10"></textarea>
+                <textarea name="" id="bio" cols="100" rows="10"></textarea>
                 <br>
                 <button type="submit" id="submit">Submit your form</button>
                 <button type="reset">Reset</button>
